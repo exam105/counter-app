@@ -21,6 +21,6 @@
         state: present
     - name: Start the container
       docker_container:
-        name: hariapp
+        name: exam105-fe
         image: "muhammad1/exam105-fe:{{DOCKER_TAG}}"
         state: started
